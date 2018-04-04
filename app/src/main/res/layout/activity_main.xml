@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carme.relojcs.MainActivity">
+
+    <TextView
+        android:id="@+id/text_hora_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_hour_base"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:textSize="54sp"/>
+    <TextView
+        android:id="@+id/text_ciudad_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_city_example"
+        android:layout_below="@id/text_hora_principal"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"/>
+
+    <!-- Linea Horizontal -->
+    <View
+        android:id="@+id/view_linea_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_margin="10dp"
+        android:layout_below="@id/text_ciudad_principal"/>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="370dp"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+    <!-- Horas de ciudad -->
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linear_city1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+
+
+            <TextView
+            android:id="@+id/la"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/text_city_los_angeles"
+            android:textSize="25sp"
+               />
+
+            <TextView
+            android:id="@+id/ny"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/text_city_new_york"
+            android:textSize="25sp"
+             />
+
+            <TextView
+                android:id="@+id/md"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/text_city_madrid"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+        <!--
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/text_hour_la"
+            android:layout_below="@id/linear_city1"
+            android:textSize="25sp"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_city2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/view_linea_horizontal"
+        android:layout_alignLeft="@id/view_linea_horizontal"
+        android:layout_below="@id/linear_city1">
+
+
+        <!--
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/text_hour_ny"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_city3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/view_linea_horizontal"
+        android:layout_alignLeft="@id/view_linea_horizontal"
+        android:layout_below="@id/linear_city2">
+
+
+        <!--
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/text_hour_md"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+     Texto Power View
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="@string/powered_by_carmens"/>
+
+</RelativeLayout>
+-->
